@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background:grey;
+    font-size : 15px;
+    line-height:25px;
+    color: whitesmoke;
+}
+.bold{
+    font: weight 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.semi_bold{
+    font-weight: 500;
+    font-size: 16px;
+}
+.resume{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+.resume .resume_left{
+    width:280px;
+    background: dodgerblue;
+}
+.resume .resume_left .resume_profile{
+    width: 100%;
+    height: 280px;
+}
+.resume .resume_left .resume_profile img{
+    width: 100%;
+    height: 100%;
+}
+.resume .resume_left .resume_content{
+    padding: 0 30px;
+}
